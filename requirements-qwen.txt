@@ -1,0 +1,7 @@
+# Optional: Qwen3-TTS voice cloning. Big: PyTorch and friends, about 1.5 GB.
+# Normally installed from the app (Voices -> Qwen3-TTS -> Download), which puts
+# these into lumann/engines/qwen/packages/ so that Delete can remove them again.
+qwen-tts
+torch
+soundfile
+numpy

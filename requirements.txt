@@ -1,0 +1,6 @@
+# What the app needs to run with the built-in eSpeak voices.
+# System programs, installed separately: ffmpeg, espeak-ng (see README).
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart>=0.0.9
+pydantic>=2

@@ -1,0 +1,31 @@
+# Your data (projects, voices, samples) and the optional Qwen engine stay local.
+lumann/projects/
+lumann/voices/
+lumann/engines/
+lumann/samples/*
+!lumann/samples/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend build tooling. lumann/web/dist/ IS committed, so the app runs
+# without Node; rebuild it after changing the UI.
+node_modules/
+*.tsbuildinfo
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Audio and text you are working on, if you keep it in the repo folder
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.opus
+*.epub
+/*.txt
+!/requirements*.txt

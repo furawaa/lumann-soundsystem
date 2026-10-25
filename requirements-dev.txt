@@ -1,0 +1,5 @@
+# For running the test suite (it uses a fake TTS engine, no model needed).
+-r requirements.txt
+httpx
+numpy
+soundfile
